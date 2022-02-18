@@ -29,3 +29,22 @@ public class ClockHand {
         return "" + this.value;
     }
 }
+
+class Timer{
+    private ClockHand hundsecs;
+    private ClockHand seconds;
+    
+    public Timer(){
+        this.hundsecs = new ClockHand(100);
+        this.seconds = new ClockHand(60);
+    }
+    public void advance(){
+        this.hundsecs.advance();
+        if(this.hundsecs.value() == 0){
+            this.seconds.advance();
+        }
+    }
+    public String toString(){
+        return seconds + ":" + hundsecs;
+    }
+}
