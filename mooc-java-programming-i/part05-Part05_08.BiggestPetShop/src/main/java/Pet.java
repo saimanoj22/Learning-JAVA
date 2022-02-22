@@ -16,5 +16,10 @@ public class Pet {
     public String getBreed() {
         return breed;
     }
+    
+    @Override
+    public String toString(){
+        return this.name + " (" + this.breed + ")";
+    }
 
 }
