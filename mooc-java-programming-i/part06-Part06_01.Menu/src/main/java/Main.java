@@ -21,7 +21,7 @@ public class Main {
 //        exactum.clearMenu();
 //        exactum.printMeals();
 
-        // Part 1
+        // Main
         Menu menu = new Menu();
         menu.addMeal("Tofu ratatouille");
         menu.addMeal("Chilli coconut chicken");
@@ -34,8 +34,7 @@ public class Main {
         System.out.println();
         menu.addMeal("Tomato and mozzarella salad");
         menu.printMeals();
-        
-        // Part 2
+       
         
     }
 }
