@@ -10,7 +10,7 @@ public class TextUI {
     }
     public void start(){
         while(true){
-            System.out.println("Command: ");
+            System.out.print("Command: ");
             String command = scanner.nextLine();
             if(command.equals("end")){
                 end();
@@ -29,15 +29,15 @@ public class TextUI {
     }
     
     public void add(){
-        System.out.println("Word: ");
+        System.out.print("Word: ");
         String word = scanner.nextLine();
-        System.out.println("Translation: ");
+        System.out.print("Translation: ");
         String translation = scanner.nextLine();
         this.dictionary.add(word, translation);
     }
     
     public void search(){
-        System.out.println("To be translated: ");
+        System.out.print("To be translated: ");
         String searchWord = scanner.nextLine();
         if(this.dictionary.translate(searchWord) != null){
             System.out.println("Translation: " + this.dictionary.translate(searchWord));
