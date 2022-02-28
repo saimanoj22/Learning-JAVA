@@ -11,8 +11,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         SimpleDictionary dictionary = new SimpleDictionary();
 
-        /*TextUI ui = new TextUI(scanner, dictionary);
-        ui.start();*/
+        TextUI ui = new TextUI(scanner, dictionary);
+        ui.start();
         
         // Part 2 & Part 3 & Part 4
         scanner = new Scanner(System.in);
