@@ -20,7 +20,7 @@ public class LiquidContainers {
             String command = parts[0];
             int amount = Integer.valueOf(parts[1]);
             
-            if(command.endsWith("add")){
+            if(command.equals("add")){
                 if(amount > 0){                   
                     first += amount;
                     if(first > 100){
