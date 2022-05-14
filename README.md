@@ -46,4 +46,5 @@ Each having 7 parts.
 
 ![Certificate_Java Programming-1](https://certificates.mooc.fi/validate/hj32rb5gasc)
 
-- Java Programming - 2 is still in progress.....
+- Completed Java Programming - 2
+![Certificate_Java Programming-2](https://certificates.mooc.fi/validate/hj32rb5gasc)
